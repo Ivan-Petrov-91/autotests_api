@@ -29,7 +29,7 @@ create_file_request = CreateFileRequestDict(
     upload_file="./testdata/files/image.png"
 )
 create_file_response = files_client.create_file(create_file_request)
-print('Create file data:', create_user_response)
+print('Create file data:', create_file_response)
 
 create_course_request = CreateCourseRequestDict(
     title="Python",
